@@ -1,0 +1,172 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: bold;
+   }
+   .nav li:hover a.nav-link{
+    color: rgb(128, 42, 42);
+    
+}
+.list-group{
+    position: absolute;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border-radius: 1px  #434343;
+     display: none;
+    }
+ .nav li:hover ul.list-group{
+    display: block;
+ }   
+ 
+ .nav ul.list-group li:hover a{
+    color: rgb(128, 42, 42);
+ }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+.section-products .single-product{
+    height: 430px;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+    margin-left: -55rem;
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+    border: 1px solid #747474;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    
+}
+.section-products .single-product .part-1 a img{
+    width: -webkit-fill-available;
+}
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product .part-2{
+    text-align: center;
+    font-weight: bold;
+}
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ee691c;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+
+.section-products .single-product .part-1 .discount{
+    box-sizing: border-box;
+    background: red;
+    font-weight: 800;
+}
+/* ----gioithieu---- */
+
+
+.content-box-column{
+    margin:40px 74px 80px 52px ;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 3px 3px 3px 3px #666;
+    padding: 20px 5px 10px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+
+}
+.heading{
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: block;
+  box-sizing: border-box;
+
+}
+.content-box-heading{margin: 5px;}
+.content-container{
+    font-size: 12px;
+}
+/* blog */
+.blog{
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: auto;
+}
+.blog p img.lazyload{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.page-item{
+    border:1px solid #ccc;
+    padding: 5px 9px;
+    color:#000;
+}
+.current_page{
+    background: #000;;
+    color: #fff;
+}
+

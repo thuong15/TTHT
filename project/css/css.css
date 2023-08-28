@@ -1,0 +1,28 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;     
+    
+    }
+.input{
+    width: 50%;
+    margin: auto;
+}
+label{
+    float: left;
+    margin:10px;
+    text-align: right;
+    width: 25%;
+}
+input{
+    margin: 15px;
+}
+button{
+    width: 20%;
+    margin: auto;
+    display: block;
+    background: #0f53da;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
